@@ -1,0 +1,62 @@
+.addbd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.addb{
+   background-color: green;
+   border: 1px solid green;
+   padding: 5px 10px;
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   border-radius: 8px;
+    cursor: pointer;
+}
+.tabd{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabl{
+    border-radius: 8px;
+    width: 90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tablr{
+    border: 1px solid black;
+}
+.tabld{
+    text-align: center;
+    
+    border: 1px solid black;
+}
+.addbg{
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+     cursor: pointer;
+     margin-left: 5px;
+     margin-right: 5px;
+ }
+ .addbr{
+    background-color: red;
+    border: 1px solid red;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+     cursor: pointer;
+     margin-left: 5px;
+     margin-right: 5px;
+ }

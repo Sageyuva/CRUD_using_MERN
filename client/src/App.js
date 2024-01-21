@@ -1,18 +1,20 @@
-import React from 'react';
-
-function App() {
+import {BrowserRouter, Route, Routes} from "react-router-dom"
+import HomeScreen from "./screens/HomeScreen"
+import AddScreen from "./screens/AddScreen"
+import EditScreen from "./screens/EditScreen"
+const App = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+   <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomeScreen/>} />
+      <Route path="/adduser" element={<AddScreen/>} />
+      <Route path="/edituser/:id" element={<EditScreen/>} />
+      
+    </Routes>
+   </BrowserRouter>
+    </>
+  )
 }
 
-export default App;
+export default App
